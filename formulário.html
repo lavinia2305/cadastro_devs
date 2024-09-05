@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/img/documento.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Cadastro de DEVs</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="Nome">
+            </div>
+
+            <div>
+                <label><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+        </fieldset>
+        
+        <div>
+            <label><strong>Email</strong></label>
+            <input type="email" name="Email" id="Email">
+        </div>
+
+        <div>
+            <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="front-end" checked>Front-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="back-end">Back-end
+            </label> 
+            <label>
+                <input type="radio" name="devweb" value="Full-stack">Full-stack
+            </label>
+        </div>
+
+        <div>
+            <label>Senioridade</label>
+            <select id="Senioridade">
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+
+        </div>
+    </form>
+</body>
+</html>
